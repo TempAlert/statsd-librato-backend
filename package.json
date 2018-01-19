@@ -1,13 +1,13 @@
 {
-  "author": "Mike Heffner <mike@librato.com>",
+  "author": "TempAlert - Original Author - Mike Heffner <mike@librato.com>",
   "name": "statsd-librato-backend",
-  "description": "A StatsD backend for Librato Metrics",
+  "description": "A (TempAlert) StatsD backend for Librato Metrics",
   "version": "2.0.16",
   "license": "MIT",
-  "homepage": "https://github.com/librato/statsd-librato-backend",
+  "homepage": "https://github.com/TempAlert/statsd-librato-backend",
   "repository": {
     "type": "git",
-    "url": "git://github.com/librato/statsd-librato-backend.git"
+    "url": "git://github.com/TempAlert/statsd-librato-backend.git"
   },
   "contributors": [
     {
@@ -36,16 +36,5 @@
     "pre-commit": "^1.2.2",
     "sinon": "^2.1.0"
   },
-  "main": "lib/librato.js",
-  "scripts": {
-    "test": "nodeunit",
-    "lint": "eslint lib test"
-  },
-  "pre-commit": [
-    "lint",
-    "test"
-  ],
-  "bin": {
-    "statsd-librato": "./bin/statsd-librato"
-  }
+  "main": "lib/librato.js"
 }
